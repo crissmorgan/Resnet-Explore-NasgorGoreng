@@ -100,4 +100,5 @@ Secara keseluruhan, perbandingan ini menunjukkan bahwa penggunaan arsitektur res
 #### Lampiran
 
 Tautan Readme : https://github.com/crissmorgan/Resnet-Explore-NasgorGoreng/blob/main/README.md
-Tautan Colabs Source Code : 
+
+Tautan Source Code : https://drive.google.com/file/d/1Gio3C10mk7ihMlCrbarRjLQZbDoC3V83/view?usp=sharing
