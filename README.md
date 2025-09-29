@@ -96,3 +96,5 @@ Secara keseluruhan, perbandingan ini menunjukkan bahwa penggunaan arsitektur res
 
 ---
 
+
+#### Lampiran
