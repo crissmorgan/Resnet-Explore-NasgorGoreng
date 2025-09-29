@@ -19,7 +19,32 @@ Dalam pelatihan kedua model, konfigurasi hyperparameter yang digunakan dijelaska
 
 #### Tabel Perbandingan Metrik Dua Model
 ##### Hasil dari Model Plain-34
+![Alt Text](tabelplain.jpg)
 
+#### Hasil Evaluasi Model
+
+Berikut adalah hasil evaluasi model pada data latih dan data uji yang dilakukan setelah proses pelatihan.
+
+#### Classification Report
+
+| **Kelas**      | **Precision** | **Recall** | **F1-Score** | **Support** |
+|----------------|---------------|------------|--------------|-------------|
+| nasi_goreng    | 0.78          | 0.48       | 0.59         | 44          |
+| rendang        | 0.64          | 0.89       | 0.75         | 53          |
+| soto_ayam      | 0.22          | 0.84       | 0.35         | 32          |
+| bakso          | 0.00          | 0.00       | 0.00         | 55          |
+| gado_gado      | 0.00          | 0.00       | 0.00         | 50          |
+| **accuracy**   |               |            | **0.43**     | 222         |
+| **macro avg**  | 0.33          | 0.44       | 0.34         | 222         |
+| **weighted avg**| 0.34         | 0.43       | 0.35         | 222         |
+
+#### Akurasi Model
+
+- **Train Accuracy**: 0.7020
+- **Test Accuracy**: 0.4279
+
+#### Hasil Train Model Plain-34
+![Alt Text](train.jpg)
 
 ##### Hasil dari Model Resnet-34
 ![Alt Text](train_resnet34.jpg)
@@ -44,6 +69,8 @@ Berikut adalah hasil evaluasi model pada data latih dan data uji yang dilakukan 
 
 - **Train Accuracy**: 0.8695
 - **Test Accuracy**: 0.6712
+- 
+#### Hasil Train Resnet-34
 
 ![Alt Text](loss_val.jpg)
 
@@ -52,7 +79,7 @@ Berikut adalah hasil evaluasi model pada data latih dan data uji yang dilakukan 
 
 #### GRAFIK KURVA TRAINING KEDUA MODEL
 ##### Grafik Train dari Model Plain-34
-
+![Alt Text](plaingrafik.jpg)
 
 
 ##### Grafik Train dari Model Resnet-34
@@ -61,8 +88,6 @@ Berikut adalah hasil evaluasi model pada data latih dan data uji yang dilakukan 
 
 #### HASIL ANALISIS
 
-![Alt Text](gambar5.jpg)
-![Alt Text](gambar1.jpg)
 
 ---
 
